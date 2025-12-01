@@ -22,7 +22,7 @@ def spin(input_list: list) -> tuple:
 def main() -> None:
 
     inputs = []
-    with open("input", "r") as f:
+    with open("input.txt", "r") as f:
         inputs = f.readlines()
 
     result = spin(inputs)
